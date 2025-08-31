@@ -1,11 +1,7 @@
 ---
 title: Macでお手軽にSQL練習環境を構築する方法【MySQL/Sequel Ace/Docker】
 tags:
-  - MySQL
-  - Sequel Ace
-  - Docker
-  - 初学者
-  - Mac
+  - ''
 private: false
 updated_at: ''
 id: null
