@@ -179,7 +179,7 @@ no_draft_articles = Article.not_draft
 #### スコープを自動生成しないようにする
 場合によっては、スコープメソッドを自動生成したくない場合もあるかもしれません。
 （自分でスコープ名をカスタムしたいときや、そのプロジェクトでスコープそのものが不要なときなど）
-その場合は、下記のように`_scopes: false`オプションを付与することで、自動生成を防ぐことができます。
+その場合は、下記のように`scopes: false`オプションを付与することで、自動生成を防ぐことができます。
 
 ```ruby
 class Article < ApplicationRecord
@@ -201,7 +201,7 @@ end
 
 このとき、`Article.free`や`article.published?`、`article.paid!`のように利用すると、どちらのカラムの`enum`メソッドなのか分かりづらくなってしまう課題があります🤔
 
-このような場合は、`_prefix: true`オプションを付与することで、`enum`メソッドにプレフィックスを付与することができ、よりコードが明確になります！
+このような場合は、`prefix: true`オプションを付与することで、`enum`メソッドにプレフィックスを付与することができ、よりコードが明確になります！
 
 ```ruby
 class Article < ApplicationRecord
