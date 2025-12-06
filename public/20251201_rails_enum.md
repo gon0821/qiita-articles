@@ -1,7 +1,7 @@
 ---
 title: 【Rails初学者】enumの基礎についてざっくり理解する
 tags:
-  - ''
+  - 'Rails'
 private: false
 updated_at: ''
 id: null
