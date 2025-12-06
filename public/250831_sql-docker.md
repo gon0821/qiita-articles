@@ -1,9 +1,13 @@
 ---
 title: Macでお手軽にSQL練習環境を構築する方法【MySQL/Sequel Ace/Docker】
 tags:
+  - Mac
+  - MySQL
   - Docker
+  - 初学者
+  - SequelAce
 private: false
-updated_at: '2025-08-31T21:46:42+09:00'
+updated_at: '2025-09-01T22:54:06+09:00'
 id: f2672da285c3ffc70e36
 organization_url_name: null
 slide: false
@@ -172,3 +176,5 @@ Dockerを使うことで、PCに直接MySQLをインストールせずにSQLの�
 https://apps.apple.com/jp/app/sequel-ace/id1518036000?mt=12
 
 https://qiita.com/miya1221/items/1dee543d7f57c4f576cc
+
+https://qiita.com/gon0821/items/77369def082745d19c38
