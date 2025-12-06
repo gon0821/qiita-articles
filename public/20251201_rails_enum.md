@@ -1,10 +1,10 @@
 ---
 title: 【Rails初学者】enumの基礎についてざっくり理解する
 tags:
-  - 'Rails'
+  - Rails
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-12-06T16:34:06+09:00'
+id: fa78bf309d75852e7fef
 organization_url_name: null
 slide: false
 ignorePublish: false
