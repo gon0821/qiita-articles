@@ -3,7 +3,7 @@ title: 【Rails初学者】enumの基礎についてざっくり理解する
 tags:
   - Rails
 private: false
-updated_at: '2025-12-07T00:11:06+09:00'
+updated_at: '2025-12-08T19:39:27+09:00'
 id: fa78bf309d75852e7fef
 organization_url_name: null
 slide: false
@@ -248,12 +248,10 @@ article.paid_category!
 # 終わりに
 最後まで読んでいただきありがとうございました☺️
 Railsは便利な機能がたくさんあるので、これからも少しずつ深掘りしていきたいと思います💪
-明日は`ActiveRecord::Relation`について深掘りしていきますので、よければそちらもご覧ください！
 
 
 # 参考記事
 https://railsguides.jp/active_record_querying.html#enum
 
 https://techracho.bpsinc.jp/hachi8833/2022_02_18/115735
-
 https://api.rubyonrails.org/v8.1/classes/ActiveRecord/Enum.html
