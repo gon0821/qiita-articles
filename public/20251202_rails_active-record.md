@@ -86,5 +86,108 @@ ORMフレームワークとしてのActiveRecordが提供する主な機能
 といっても、最低限知っておくべきルールがいくつかあるので紹介します🧑‍💻
 
 ### 命名規約
+| モデル名（クラス名） | テーブル名         |
+|----------------------|--------------------|
+| User                 | users              |
+| ProductCategory      | product_categories |
+| Person            | people        |
 
+> Railsでは、データベースのテーブル名を探索するときに、モデルのクラス名を複数形にした名前で探索します。たとえば、Bookというモデルクラスがある場合、これに対応するデータベースのテーブルは複数形の「books」になります。
+<sub>参考：[Railsガイド ActiveRecord基礎](https://railsguides.jp/active_record_basics.html#%E5%91%BD%E5%90%8D%E8%A6%8F%E7%B4%84)より</sub>
 
+また、モデルのクラス名が`product category`のような複数の単語で構成される場合は、**キャメルケース（CamelCase）**で命名し、対応するテーブル名は**スネークケース（snake_case）**で複数形にします。
+
+### スキーマの規約
+1. 主キーは`id`カラムとして自動的に追加され、整数型カラムを利用される
+1. タイムスタンプ用の`created_at`および`updated_at`カラムが自動的に追加され、レコードの作成日時と更新日時を管理する
+2. 外部キーは`単数系のテーブル名_id`の形式で命名される（例：`user_id`）
+3. `lock_version`カラムは楽観的ロックのために使用される
+4. `関連付け名_type`カラムではポリモーフィック関連付けを管理する
+
+主な規約は以上ですが、この他にも規約がありますので詳細は[こちら](https://railsguides.jp/active_record_basics.html#%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E%E3%81%AE%E8%A6%8F%E7%B4%84)をご参照ください。
+
+## ActiveRecordのモデルを作成する
+Railsアプリケーションを作成すると、`app/models/application_record.rb`というファイルが自動生成されます（`Rails8`で動作確認）
+
+```ruby
+# app/models/application_record.rb
+class ApplicationRecord < ActiveRecord::Base
+  primary_abstract_class
+end
+```
+
+この`ApplicationRecord`クラスは、`ActiveRecord::Base`を継承しており、アプリケーション内のすべてのモデルクラスの基底クラスとして機能します。
+各モデルクラスは、この`ApplicationRecord`クラスを継承することで、ActiveRecordの機能を利用できます。
+```ruby
+class User < ApplicationRecord
+end
+```
+
+:::note info
+なぜ各モデルクラスで`ActiveRecord::Base`を直接継承しないのか？🤔
+- 実際、`Rails4`までは各モデルクラスで`ActiveRecord::Base`を直接継承していました。
+しかし、`Rails5`からは`ApplicationRecord`クラスを導入し、`ApplicationRecord`を継承する形に変更されました。
+- これによりアプリケーション全体で共通の設定やメソッドを`ApplicationRecord`にまとめることができ、全体の共通設定を一箇所で管理できるようになりました⭐️
+また、コードの重複を減らし、保守性の向上にも繋がっています！
+
+:::
+
+## ActiveRecordによるCRUD操作
+`ActiveRecord`を利用することで、データベースのCRUD操作（作成、読み取り、更新、削除）を簡単に行うことができるようメソッドが提供されます。
+以下にCRUD操作の一例を示します。
+SQL文を書くことがなく、直感的にデータベース操作が可能となっていることが分かると思います😳
+
+### 作成（Create）
+```ruby
+# newメソッドで新しいインスタンスを作成
+user = User.new(name: "キー太", email: "qiita@example.com")
+# saveメソッドでデータベースに保存
+user.save
+
+# createメソッドで新しいレコードを作成して保存
+user = User.create(name: "キー太", email: "qiita@example.com")
+```
+
+### 読み取り（Read）
+```ruby
+# すべてのユーザーを取得
+users = User.all
+
+# 最初のユーザーを取得
+user = User.first
+
+# 主キーでユーザーを取得
+user = User.find(1)
+
+# 条件に基づいてユーザーを取得
+user = User.find_by(email: "qiita@example.com")
+```
+
+### 更新（Update）
+```ruby
+# ユーザーの属性を更新して保存
+user = User.find(1)
+user.name = "みかん"
+user.save
+
+# updateメソッドで属性を更新して保存
+user = User.find(1)
+user.update(name: "みかん")
+```
+
+### 削除（Delete）
+```ruby
+# ユーザーを削除
+user = User.find(1)
+user.destroy
+```
+
+# 終わりに
+最後まで読んでいただきありがとうございました😌
+Railsとは切っても切れない`ActiveRecord`について、理解が深まったと感じています💪
+`ActiveRecord`によって実現可能となっている機能がたくさんあるので、そちらも深掘りしていきたいと思います🔥
+
+# 参考記事
+https://railsguides.jp/active_record_basics.html
+
+https://qiita.com/ryokky59/items/a1d0b4e86bacbd7ef6e8
