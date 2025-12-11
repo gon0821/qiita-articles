@@ -5,8 +5,8 @@ tags:
   - マイグレーション
   - 初学者
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-12-12T06:49:21+09:00'
+id: f5131e80b2ade10b38c8
 organization_url_name: null
 slide: false
 ignorePublish: false
@@ -133,3 +133,7 @@ Q. `rails db:schema:load`コマンドとは？
 # 参考記事
 
 https://railsguides.jp/active_record_migrations.html
+
+https://qiita.com/Arashi-K/items/4e26fd367847b8bbed18
+
+https://qiita.com/hirohero/items/2f29334878b0cb525bda
