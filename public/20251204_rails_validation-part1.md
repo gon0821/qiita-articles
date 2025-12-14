@@ -1,12 +1,12 @@
 ---
-title: 【Rails初学者】バリデーションの基礎についてざっくり理解する -Part1
+title: 【Rails初学者】バリデーションの基礎についてざっくり理解する -Part1（概要編）
 tags:
   - Rails
   - バリデーション
   - 初学者
 private: false
-updated_at: '2025-12-14T13:22:34+09:00'
-id: 9cb4eea9f0ed626269b3
+updated_at: '2025-12-14T12:52:38+09:00'
+id: 2e9d1bccf1ff9e8ab9e1
 organization_url_name: null
 slide: false
 ignorePublish: false
@@ -108,6 +108,8 @@ user.errors[:name]
 - `Enumerable`モジュールをインクルードしているため、反復処理が可能
 :::
 
+# Part2へ続く
+https://qiita.com/gon0821/items/e4dadfcf07036b1f70c3
 
 # 参考記事
 https://railsguides.jp/active_record_validations.html
