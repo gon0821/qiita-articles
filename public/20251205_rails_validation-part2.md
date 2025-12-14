@@ -5,13 +5,13 @@ tags:
   - バリデーション
   - 初学者
 private: false
-updated_at: '2025-12-14T01:10:44+09:00'
+updated_at: '2025-12-14T12:50:51+09:00'
 id: e4dadfcf07036b1f70c3
 organization_url_name: null
 slide: false
 ignorePublish: false
 ---
-# 続き
+# Part1 続き
 https://qiita.com/gon0821/items/2e9d1bccf1ff9e8ab9e1
 
 [前回の記事](https://qiita.com/gon0821/items/2e9d1bccf1ff9e8ab9e1)では、Railsのバリデーションのおおまかな概要についてまとめました📘
@@ -203,6 +203,8 @@ end
 ```
 この場合、`terms_of_service`属性が`'yes'`、`'YES'`、または`'Y'`であることを検証します。
 
+# Part3へ続く
+https://qiita.com/gon0821/items/f1b92cb70c8adaa8f1d5
 
 # 参考記事
 https://railsguides.jp/active_record_validations.html
