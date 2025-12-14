@@ -3,6 +3,7 @@ title: 【Rails初学者】ActiveRecordの基礎についてざっくり理解�
 tags:
   - Rails
   - ActiveRecord
+  - model
   - 初学者
 private: false
 updated_at: '2025-12-09T22:18:06+09:00'
