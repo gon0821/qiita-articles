@@ -1,10 +1,12 @@
 ---
 title: 【Rails初学者】バリデーションの基礎についてざっくり理解する -Part4（共通オプション）
 tags:
-  - ''
+  - Rails
+  - バリデーション
+  - 初学者
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-12-15T04:43:20+09:00'
+id: b35aaf68a978a52db41c
 organization_url_name: null
 slide: false
 ignorePublish: false
@@ -140,6 +142,8 @@ end
 # Part5へ続く
 今回はバリデーションで使用できる共通オプションについてまとめました📚
 次回はカスタムバリデーションについてまとめていきたいと思います！
+
+https://qiita.com/gon0821/items/d1197c5009586c7289f4
 
 # 参考記事
 https://railsguides.jp/active_record_validations.html

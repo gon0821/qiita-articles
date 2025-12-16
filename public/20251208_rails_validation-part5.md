@@ -5,7 +5,7 @@ tags:
   - バリデーション
   - 初学者
 private: false
-updated_at: '2025-12-15T04:39:48+09:00'
+updated_at: '2025-12-16T04:33:15+09:00'
 id: d1197c5009586c7289f4
 organization_url_name: null
 slide: false
@@ -159,6 +159,8 @@ end
 # Part6へ続く
 ようやくカスタムバリデーションまでたどり着きました...！🎉
 次回は、`errors`オブジェクトの使い方についてまとめていきたいと思います！✍️
+
+https://qiita.com/gon0821/items/09e1194f227e2ea5d506
 
 # 参考記事
 https://railsguides.jp/active_record_validations.html

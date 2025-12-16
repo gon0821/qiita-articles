@@ -5,7 +5,7 @@ tags:
   - バリデーション
   - 初学者
 private: false
-updated_at: '2025-12-14T12:11:43+09:00'
+updated_at: '2025-12-14T22:04:47+09:00'
 id: f1b92cb70c8adaa8f1d5
 organization_url_name: null
 slide: false
@@ -204,6 +204,8 @@ end
 # Part4へ続く
 Railsが用意してくれているバリデーションについて調べてきましたが、これらを自分で用意するとなるとかなり大変なので、Rails様々だなと改めて感じました😌
 次回はバリデーションの共通オプションや条件付きバリデーションについてまとめていきたいと思います💪
+
+https://qiita.com/gon0821/items/b35aaf68a978a52db41c
 
 # 参考記事
 
