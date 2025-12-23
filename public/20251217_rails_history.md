@@ -4,7 +4,6 @@ tags:
   - Rails
   - 歴史
   - 初学者
-  - Ruby on Rails
 private: false
 updated_at: ''
 id: null
