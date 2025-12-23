@@ -4,7 +4,7 @@ tags:
   - pr
   - Railsガイド
 private: false
-updated_at: '2025-12-17T08:53:37+09:00'
+updated_at: '2025-12-18T21:51:46+09:00'
 id: 9f512eaad60e403eda31
 organization_url_name: null
 slide: false
@@ -19,7 +19,7 @@ ignorePublish: false
 # Railsガイド（日本語版）とは
 > 『Railsガイド』は Ruby on Rails Guides に基づいた大型リファレンスガイドです。
 Railsの各機能を体系的に学び、プロダクト開発の生産性を高めたいときに役立ちます。
-<sub>参考：[Railsガイドの公開リポジトリ README](https://railsguides.jp/active_record_validations.html#%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88)より</sub>
+<sub>参考：[Railsガイドの公開リポジトリ README](https://github.com/yasslab/railsguides.jp#readme)より</sub>
 
 Railsの基本から応用まで体系的にまとめられており、Railsを学ぶ上で非常に有用なリソースです。
 `ActiveRecord`や`ActionView`、ルーティングなど、Railsの主要な機能について詳しく解説されており、開発中に何度も参照する必須のリファレンスとなっています📕
