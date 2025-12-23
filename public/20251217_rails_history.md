@@ -5,8 +5,8 @@ tags:
   - 歴史
   - 初学者
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-12-23T21:31:27+09:00'
+id: f8a91dc4446babd86eaf
 organization_url_name: null
 slide: false
 ignorePublish: false
