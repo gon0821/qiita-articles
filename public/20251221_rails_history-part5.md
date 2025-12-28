@@ -5,7 +5,7 @@ tags:
   - 歴史
   - 初学者
 private: false
-updated_at: '2025-12-25T04:49:35+09:00'
+updated_at: '2025-12-25T06:32:46+09:00'
 id: 183e2098dbbc4e9c4ccf
 organization_url_name: null
 slide: false
@@ -87,6 +87,8 @@ https://qiita.com/gon0821/items/88c40f752a01e135fc87
 
 # Part6へ続く
 次回は2019年から2021年までの軌跡を振り返ります📙
+
+https://qiita.com/gon0821/items/652a54936166a6dca63a
 
 # 参考記事
 https://railsguides.jp/5_0_release_notes.html

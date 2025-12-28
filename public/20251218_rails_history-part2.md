@@ -1,11 +1,11 @@
 ---
-title: 【Rails初学者】Railsの過去を知る -Part2 | 20年の軌跡（2007年〜2009年）
+title: 【Rails史】Railsの過去を知る -Part2 | 20年の軌跡（2007年〜2009年）
 tags:
   - Rails
   - 歴史
   - 初学者
 private: false
-updated_at: '2025-12-24T00:41:35+09:00'
+updated_at: '2025-12-24T12:11:53+09:00'
 id: d3e5213057cd3704adf2
 organization_url_name: null
 slide: false
@@ -110,6 +110,8 @@ https://qiita.com/gon0821/items/f8a91dc4446babd86eaf
 今回は2007年から2009年までの`Rails`の軌跡を振り返りました📙
 この時代には、現在の`Rails`の基盤となる重要な機能や設計思想が形成されていったんだなということが分かりました🙆
 次回は2010年以降の`Rails`の軌跡についてまとめていきたいと思いますので、よければまたお付き合いください🙌
+
+https://qiita.com/gon0821/items/e67f0e776aa4bf9cc47c
 
 # 参考記事
 https://railsguides.jp/getting_started.html#rails%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B

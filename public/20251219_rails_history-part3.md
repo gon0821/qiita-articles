@@ -1,11 +1,11 @@
 ---
-title: 【Rails初学者】Railsの過去を知る -Part3 | 20年の軌跡（2010年〜2012年）
+title: 【Rails史】Railsの過去を知る -Part3 | 20年の軌跡（2010年〜2012年）
 tags:
   - Rails
   - 歴史
   - 初学者
 private: false
-updated_at: '2025-12-24T08:21:33+09:00'
+updated_at: '2025-12-25T00:54:21+09:00'
 id: e67f0e776aa4bf9cc47c
 organization_url_name: null
 slide: false
@@ -112,6 +112,8 @@ https://news.mynavi.jp/techplus/article/20120308-a027/
 
 # Part4へ続く
 次回は2013年以降の`Rails`の軌跡についてまとめていきたいと思います！✍️
+
+https://qiita.com/gon0821/items/88c40f752a01e135fc87
 
 # 参考記事
 https://railsguides.jp/getting_started.html#rails%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B

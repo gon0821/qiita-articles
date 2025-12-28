@@ -1,11 +1,11 @@
 ---
-title: 【Rails初学者】Railsの過去を知る -Part1 | 20年の軌跡（2003年〜2006年）
+title: 【Rails史】Railsの過去を知る -Part1 | 20年の軌跡（2003年〜2006年）
 tags:
   - Rails
   - 歴史
   - 初学者
 private: false
-updated_at: '2025-12-23T21:31:27+09:00'
+updated_at: '2025-12-24T12:11:31+09:00'
 id: f8a91dc4446babd86eaf
 organization_url_name: null
 slide: false

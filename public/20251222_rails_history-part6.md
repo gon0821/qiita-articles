@@ -5,7 +5,7 @@ tags:
   - 歴史
   - 初学者
 private: false
-updated_at: '2025-12-25T06:28:57+09:00'
+updated_at: '2025-12-25T08:15:57+09:00'
 id: 652a54936166a6dca63a
 organization_url_name: null
 slide: false
@@ -80,6 +80,8 @@ https://world.hey.com/dhh/the-one-person-framework-711e6318
 
 # Part7へ続く
 次回は2022年から2025年までの軌跡を振り返ります📙
+
+https://qiita.com/gon0821/items/17499fd4bd8522f01210
 
 # 参考記事
 https://railsguides.jp/6_0_release_notes.html

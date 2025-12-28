@@ -5,7 +5,7 @@ tags:
   - 歴史
   - 初学者
 private: false
-updated_at: '2025-12-25T00:52:09+09:00'
+updated_at: '2025-12-25T04:54:44+09:00'
 id: 88c40f752a01e135fc87
 organization_url_name: null
 slide: false
@@ -125,6 +125,8 @@ https://rubyonrails.org/doctrine/ja#integrated-systems
 # Part5へ続く
 次回は2016年から2018年までの軌跡を振り返ります📙
 だんだんと最近の話題になってきてワクワクしてきました！
+
+https://qiita.com/gon0821/items/183e2098dbbc4e9c4ccf
 
 # 参考記事
 https://railsguides.jp/4_0_release_notes.html
